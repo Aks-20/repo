@@ -22,7 +22,6 @@ const App = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           
-            {/* Add a catch-all route for 404s */}
             <Route path="*" element={<Navigate to="/home" replace />} />
           </Routes>
         </div>
