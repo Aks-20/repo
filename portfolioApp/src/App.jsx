@@ -10,7 +10,7 @@ import Contact from './Pages/Contact.jsx';
 const App = () => {
   return (
     <Router>
-      {/* Wrap everything in a div with dark mode class handling */}
+    
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
         <NavBar />
         <div className="content">
